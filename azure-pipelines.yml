@@ -9,7 +9,7 @@ trigger:
 pool:
    name: Default
    demands:
-    - agent.name -equals iOSAutomations-Mac-mini
+    - agent.version -equals 2.211.0
 
 steps:
 - task: Maven@3
